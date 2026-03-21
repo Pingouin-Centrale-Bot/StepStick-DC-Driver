@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.1,
-          "width": 1.4
+          "height": 1.5,
+          "width": 0.45
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,24 +60,24 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|124473800|79900200|368c9900-45a4-42a0-86b3-577c140452db|e9f87200-888e-4ad6-b5f2-e4448ca35868",
+          "Header will be soldered by hand, and looks good on the 3D visualization"
+        ],
+        [
+          "courtyards_overlap|134125000|81256000|124a4ccd-310c-4413-a452-3acad7b7b41a|235b7f49-e139-4a24-bf37-220c6dec9c34",
+          "Header will be soldered by hand, and looks good on the 3D visualization"
+        ],
+        [
+          "courtyards_overlap|134125000|85574000|124a4ccd-310c-4413-a452-3acad7b7b41a|7c6144a7-64a2-41a5-804c-75a034e99f85",
+          "Header will be soldered by hand, and looks good on the 3D visualization"
+        ],
+        [
           "lib_footprint_mismatch|123190000|85090000|368c9900-45a4-42a0-86b3-577c140452db|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|130175000|82422200|b32be84d-ad87-4bee-88d9-b7f1ac27eef1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|130175000|91470200|9c31164c-30bc-4df9-833a-ec4238e182e2|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "lib_footprint_mismatch|135890000|85090000|124a4ccd-310c-4413-a452-3acad7b7b41a|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "starved_thermal|135890000|91440000|da8def51-ef75-45da-81f2-c85615a416db|fc28cc0e-3127-46e2-8b59-e41012000e81|F.Cu",
-          "Useless zone"
         ]
       ],
       "meta": {
@@ -559,7 +559,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0
+        "track_width": 0.5
       }
     ],
     "meta": {

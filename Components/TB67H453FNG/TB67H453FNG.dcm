@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TB67H453FNG
+D Single channel H-Bridge driver with integrated current monitoring
+K
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=160167&prodName=TB67H453FNG
+$ENDCMP
+#
+#End Doc Library
