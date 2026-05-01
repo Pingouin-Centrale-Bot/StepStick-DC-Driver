@@ -92,7 +92,15 @@ The constraints have been set up for Aisler's Beautiful Boards service.
 It is advised to use a .8mm total thickness instead of the standard 1.6mm to improve the thermal dissipation.
 
 ## Real world testing
-To be done.
+### Issues found
+- Silkscreen is inverted between IAx and IBx
+- The enable logic is reversed to what it should be if trying to emulate a stepstick
+
+### Notes
+When an overcurrent event happens, the driver deactivates for 25us. In the event of a short circuit, this means the driver will be off most of the time, and so the measured intensity (mean intensity) will be very low, and so the driver cannot be used to regulate current.
+
+### Power dissipation
+No overheating was found when used at .8A on one channel. Further testing is necessary.
 
 # StepStick DC Driver V1
 See [here](/V1/).
